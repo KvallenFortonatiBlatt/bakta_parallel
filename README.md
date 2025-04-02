@@ -1,6 +1,6 @@
 # BAKTA Parallel Annotation Pipeline
 
-A high-throughput parallel genome annotation system using BAKTA for HPC environments with Slurm workload manager.
+A set of scripts for high-throughput parallel BAKTA for HPC environments (Slurm workload manager).
 
 ## Overview
 

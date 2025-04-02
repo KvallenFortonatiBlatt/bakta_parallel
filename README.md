@@ -112,7 +112,7 @@ BAKTA_ann_GNU.sh 2 "NO"
 ```
 
 ### Addinational Script Notes
-Example direct execution (Outside of HPC, not tested):
+Example direct execution (Outside of HPC, WIP):
 ```bash
 singularity exec -B /your/dir/to/data:/mnt/data /path/to/singularity/container bash BAKTA_ann_GNU.sh 8 "NO"  # Run 8 parallel jobs, process all genomes in the input
 ```

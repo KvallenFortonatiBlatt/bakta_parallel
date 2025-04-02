@@ -78,7 +78,14 @@ Before running the pipeline, modify the following parameters in the scripts:
    - Ensure all paths in the scripts are correctly configured
    - Prepare your input FASTA files (.fa) in the designated directory
    - Alter the jobscript and runscript as needed for this run
-
+   - (OPTIONAL) Prepare and provide a reference file for the selective annotation. Format should be as follows:
+     ```
+     col1    col2
+     Strain1
+     Strain2
+     ```
+     The delimiter cutoff is the file type (given by '.') so make sure that the strain name in the column matches filename up to .fa (ie. Strain1 is matched to Strain1(cut).fa)
+     
    (TIP)
    Typically i make a copy of the script and jobscript in a new directory for every new project, good for archiving previous runs and keeping hardcoded changes
 
